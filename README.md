@@ -79,14 +79,15 @@ summarizing your Udemy courses:
 Navigate the tool with ease using the following syntax:
 
 ```bash
-node index.js [parameter] [filename.ext]
+node index.js [parameter] filename.ext
 ```
 
 ### Parameters:
 
-| Parameter   | Usage                                         |
-| ----------- | --------------------------------------------- |
-| --pdf2txt   | Generate MD from a TXT                        |
-| --summarize | Generate a summary of each chapter from a TXT |
-| --txt2md    | Generate an MD from an TXT                    |
-| --md2pdf    | Generate a PDF from an MD                     |
+| Parameter           | Usage                                                                                      |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| --pdf2txt           | Generate MD from a TXT                                                                     |
+| --summarize         | Generate a summary of each chapter from a TXT                                              |
+| --txt2md            | Generate an MD from an TXT                                                                 |
+| --md2pdf            | Generate a PDF from an MD                                                                  |
+| --language <string> | Language to be used: `en` (default), `es` or `pt`. Texts will be automatically translated. |

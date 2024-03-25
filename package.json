@@ -10,6 +10,7 @@
   "email": "me@andersonmiranda.com",
   "license": "ISC",
   "dependencies": {
+    "commander": "^12.0.0",
     "dotenv": "^16.4.5",
     "md-to-pdf": "^5.2.4",
     "openai": "^4.29.2",
